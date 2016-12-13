@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class denham extends Controller
 {
-    public function index(){
+    public function index2(){
     	$data=array(
 
     	'uno'=>\DB::table('orders as O')
@@ -29,7 +29,14 @@ class denham extends Controller
 	    			->limit(10)
 	    			->get(),
 	    	);
-    	dd($data);
+    	//dd($data);
     	return view('welcome',$data);
+    }
+
+    public function index(){
+    	return view('index');
+    }
+     public function ventas(){
+    	return view('ventas');
     }
 }

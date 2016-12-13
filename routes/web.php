@@ -12,3 +12,4 @@
 */
 
 Route::get('/','denham@index');
+Route::get('/ventas','denham@ventas');
