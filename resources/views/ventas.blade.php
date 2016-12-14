@@ -6,7 +6,7 @@
 <div class="row">
 	<div class="col s3">
 		<p>
-			<b>Facturación media por venta: $<b>
+			<b>Facturación media anual: $<b>
 			<input type="text" readonly="" id="valor">
 		</p>
 	</div>
@@ -27,4 +27,7 @@
 <div class="row" id="grafica">
 	aqui debera estar la grafica :v
 </div>
+@stop
+@section('script')
+<script src="/js/ventas.js"></script>
 @stop

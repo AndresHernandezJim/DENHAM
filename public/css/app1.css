@@ -10,7 +10,7 @@
 body{
 
 	background-attachment: fixed;
-	background-color: #e0f2f1;
+	background-color: #FFFFFF;
 	background-image: url("/images/fonseg.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -37,7 +37,7 @@ nav{
 
 header{
 
-	background-color: #e0f2f1;
+	background-color: #FFFFFF;
 }
 
 .logo{

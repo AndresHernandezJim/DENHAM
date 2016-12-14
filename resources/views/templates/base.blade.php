@@ -17,7 +17,7 @@
 </ul>
 <nav class=" teal lighten-2">
   <div class="nav-wrapper ">
-    <img class="logo" src="/images/logo.png"><a href="/" class="brand-logo form">&nbsp;DENHAM</a>
+    <a href="/" class="brand-logo form">&nbsp;DENHAM</a>
     <ul class="right hide-on-med-and-down">
     <li><a class="" href="/ventas" >Ventas&nbsp<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
     <li><a class="" href="/productos" data-activates="dropdown1">Productos&nbsp;<i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>    
@@ -28,9 +28,10 @@
 </nav>  
 </header>
 @yield('navegacion')
+<br>
 <div class="row">
   
-    <div class="col s10 offset-s1 card-panel cyan lighten-4">
+    <div class="col s10 offset-s1 card-panel  blue lighten-5">
   @yield('content')
     </div>
   </div>

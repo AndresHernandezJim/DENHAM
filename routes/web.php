@@ -13,3 +13,6 @@
 
 Route::get('/','denham@index');
 Route::get('/ventas','denham@ventas');
+Route::get('/productos','denham@productos');
+Route::get('/categorias','denham@categorias');
+Route::get('/clientes','denham@clientes');
